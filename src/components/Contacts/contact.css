@@ -1,0 +1,20 @@
+ h2{
+       font-size: 20px;
+ }
+ .contact{
+
+        padding: 0px ;
+}
+
+.tb3{
+       width:50%;
+}
+ .button:hover {
+        background-color: #59270d;
+ }
+ @media screen and (max-width:25000px) and (min-width:1028px) {}
+ @media screen and (max-width: 700px) {
+        #contact{
+                width: 200%;
+        }
+ }

@@ -1,0 +1,11 @@
+
+ 
+ @media screen and (max-width:25000px) and (min-width:1028px) {}
+ @media screen and (max-width: 700px) {
+         .Bookings {
+ 	margin: 10% 7%;
+ 	padding: 30%;
+	width: 130%;
+	border: 1px solid black;
+ }
+ }

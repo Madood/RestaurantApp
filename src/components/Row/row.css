@@ -1,0 +1,124 @@
+.row {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.First,
+.center,
+.third {
+  flex: 1;
+  height: 50%;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0%;
+  width: 100%; /* Add width: 100% to .tab */
+}
+
+.third-image {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 1028px) {
+  .row {
+    flex-direction: row;
+    margin-top: 5%;
+  }
+
+  .tab {
+    flex-direction: row;
+  }
+
+.First {
+        display: none;
+}
+
+
+  .third {
+    margin-top: 10px;
+    padding: 40px;
+  }
+  .third-image{   
+     width: 80%;
+     height: 65%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1027px) {
+    .row {
+    flex-direction: column;
+  }
+
+  .tab {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .First {
+    width: 100%; /* Make First div take full space */
+    height: 200%;
+  }
+
+  .First-image {
+    height: 110%;
+    transform: rotate(90deg);
+    width: 50%;
+    margin-top: -130px;
+  }
+
+  .center {
+    width: 100%;
+    margin-top: -35%;
+  }
+
+  .third {
+    margin-top: 10px;
+  }
+  .third-image{
+     width: 90%;
+     height: 70%;
+  }
+}
+
+@media screen and (min-width:250px) and (max-width: 699px) {
+  .row {
+    flex-direction: column;
+    width: 200%;
+    padding-left: 7%;
+  }
+
+  .tab {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .First {
+    width: 105%; /* Make First div take full space */
+    height: 100%;
+    margin-top: -130px;
+  }
+
+  .First-image {
+    height: 110%;
+    transform: rotate(90deg);
+    width: 50%;
+
+  }
+
+  .center {
+    width: 100%;
+    margin-top: -35%;
+  }
+
+  .third {
+    margin-top: 10px;
+  }
+  .third-image{
+     width: 90%;
+     height: 70%;
+  }
+}

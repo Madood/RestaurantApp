@@ -1,0 +1,14 @@
+   .ft-ico{
+                width: 20px;
+                height: 20px;
+                padding-left: 10px;
+        }
+
+@media screen and (max-width:25000px) and (min-width:1028px) {}
+ @media screen and (max-width: 700px) {
+        #footer{
+                width: 200%;
+                margin: 2%;
+        }
+
+ }

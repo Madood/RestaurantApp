@@ -1,0 +1,22 @@
+ @media screen and (max-width:25000px) and (min-width:1028px) {}
+ @media screen and (max-width: 700px) {
+	#address{
+		width: 200%;
+		padding: 2%;
+		justify-content:center;
+		align-items: center;
+	}
+	.Map{
+		width: 98%;
+		padding: 2%;
+	}
+
+	h3{
+           width: 100%;
+	 
+	}
+ }
+
+ .show {
+ 	visibility: hidden;
+ }

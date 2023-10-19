@@ -1,0 +1,47 @@
+/* Define a grid layout for large screens (3 photos per row) */
+.section__title{
+        font-size: 3rem;
+        padding: 5px;
+}
+
+
+.services{
+        padding: 100px 0px 100px 0px;
+}
+
+.services .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.8rem;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Adjust the grid layout for medium screens (2 photos per row) */
+@media screen and (max-width: 992px) {
+  .services .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Further adjust the grid layout for small screens (1 photo per row) */
+@media screen and (max-width: 768px) {
+  .services  {
+   width: 200%;
+  }
+}
+
+/* Styles for individual project items */
+.project__content {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--container);
+  padding: 2.5rem;
+}
+
+.project__img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  z-index: 1;
+}

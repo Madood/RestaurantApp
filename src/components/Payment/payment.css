@@ -1,0 +1,20 @@
+.Payment {
+  display: flex;
+  justify-content: center; /* Distribute the images evenly */
+  padding-left: 30px; /* Add padding around the images */
+}
+
+.logo {
+  width: 90%; /* Set the width to 100% to make them equal width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 200px; /* Set a maximum width if needed */
+  max-height: 200px; /* Set a maximum height if needed */
+}
+
+ @media screen and (max-width:25000px) and (min-width:1028px) {}
+ @media screen and (max-width: 700px) {
+        #Payment{
+                width: 200%;
+                margin: 80px 20px;
+        }
+ }

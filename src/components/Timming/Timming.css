@@ -1,0 +1,13 @@
+ @media screen and (max-width:25000px) and (min-width:1028px) {}
+
+ @media screen and (max-width: 699px) {
+       #Timming {
+        width: 200%;
+        padding: 2%;
+       }
+
+       .Timming{
+        width: 200%;
+         margin: 0% 2%;
+       }
+ }
